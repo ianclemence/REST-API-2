@@ -14,8 +14,14 @@ for i in range(len(data)):
 
 
 input()
-response = requests.delete(BASE + "video/0")
-print(response)
-input()
 response = requests.get(BASE + "video/6")
 print(response.json())
+
+
+    #FOR UPDATE
+#import requests
+
+#BASE = "http://127.0.0.1:5000/"
+
+#response = requests.patch(BASE + "video/2", {"views":99, "likes":101})
+#print(response.json())
