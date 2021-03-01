@@ -1,5 +1,5 @@
 # Video API
-An Application Programming Interface that let's you get information about a video from the database
+In this repo, I've created an Application Programming Interface that let's you get information about a video from the database
 
 
 # Dependencies:
